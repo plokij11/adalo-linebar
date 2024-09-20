@@ -1,0 +1,30 @@
+{
+  "name": "LineBar",
+  "displayName": "Line Bar",
+  "description": "A customizable line bar component",
+  "defaultWidth": 300,
+  "defaultHeight": 60,
+  "props": [
+    {
+      "name": "label",
+      "type": "text",
+      "displayName": "Label",
+      "description": "The label for the line bar",
+      "defaultValue": "Permanent"
+    },
+    {
+      "name": "today",
+      "type": "number",
+      "displayName": "Today",
+      "description": "The number for today",
+      "defaultValue": 20
+    },
+    {
+      "name": "total",
+      "type": "number",
+      "displayName": "Total Weeks",
+      "description": "The total number of weeks for the progress bar",
+      "defaultValue": 34
+    }
+  ]
+}

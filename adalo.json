@@ -1,0 +1,14 @@
+{
+  "displayName": "KazLib",
+  "components": [
+    {
+      "name": "LineBar",
+      "manifest": "./src/components/LineBar/manifest.json"
+    }
+  ],
+  "author": "Vladyslav Kazistov",
+  "description": "Kaz library of Adalo components.",
+  "logo": "./example-logo.png",
+  "demoAppURL": "https://app.adalo.com/apps/71a48b05-d856-4990-8444-0a8956c10a2f/screens",
+  "supportURL": "https://www.adalo.com"
+}
