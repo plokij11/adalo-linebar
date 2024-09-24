@@ -13,6 +13,130 @@
       "defaultValue": "Permanent"
     },
     {
+      "name": "labelFontWeight",
+      "displayName": "Label Font Weight",
+      "type": "number",
+      "control": {
+        "type": "menu",
+        "options": [
+          { "label": "Light", "value": 300 },
+          { "label": "Normal", "value": 400 },
+          { "label": "Medium", "value": 500 },
+          { "label": "Semi Bold", "value": 600 },
+          { "label": "Bold", "value": 700 },
+          { "label": "Extra Bold", "value": 800 },
+          { "label": "Black", "value": 900 }
+        ]
+      },
+      "defaultValue": 400
+    },
+    {
+      "name": "labelFontSize",
+      "type": "number",
+      "displayName": "Label Font Size",
+      "description": "Font size of the label text",
+      "defaultValue": 16
+    },
+    {
+      "name": "labelColor",
+      "type": "color",
+      "displayName": "Label Color",
+      "description": "Color of the label text",
+      "defaultValue": "#000000"
+    },
+    {
+      "name": "weekTotalText",
+      "type": "text",
+      "displayName": "Week Total Text",
+      "description": "Text for Week Total",
+      "defaultValue": "Week Total"
+    },
+    {
+      "name": "weekTotalFontWeight",
+      "displayName": "Week Total Font Weight",
+      "type": "number",
+      "control": {
+        "type": "menu",
+        "options": [
+          { "label": "Light", "value": 300 },
+          { "label": "Normal", "value": 400 },
+          { "label": "Medium", "value": 500 },
+          { "label": "Semi Bold", "value": 600 },
+          { "label": "Bold", "value": 700 },
+          { "label": "Extra Bold", "value": 800 },
+          { "label": "Black", "value": 900 }
+        ]
+      },
+      "defaultValue": 400
+    },
+    {
+      "name": "weekTotalFontSize",
+      "type": "number",
+      "displayName": "Week Total Font Size",
+      "description": "Font size of the Week Total text",
+      "defaultValue": 16
+    },
+    {
+      "name": "weekTotalColor",
+      "type": "color",
+      "displayName": "Week Total Color",
+      "description": "Color of the Week Total text",
+      "defaultValue": "#000000"
+    },
+    {
+      "name": "todayText",
+      "type": "text",
+      "displayName": "Today Text",
+      "description": "Text for Today",
+      "defaultValue": "Today"
+    },
+    {
+      "name": "todayFontWeight",
+      "displayName": "Today Font Weight",
+      "type": "number",
+      "control": {
+        "type": "menu",
+        "options": [
+          { "label": "Light", "value": 300 },
+          { "label": "Normal", "value": 400 },
+          { "label": "Medium", "value": 500 },
+          { "label": "Semi Bold", "value": 600 },
+          { "label": "Bold", "value": 700 },
+          { "label": "Extra Bold", "value": 800 },
+          { "label": "Black", "value": 900 }
+        ]
+      },
+      "defaultValue": 700
+    },
+    {
+      "name": "todayFontSize",
+      "type": "number",
+      "displayName": "Today Font Size",
+      "description": "Font size of the Today text",
+      "defaultValue": 14
+    },
+    {
+      "name": "todayColor",
+      "type": "color",
+      "displayName": "Today Color",
+      "description": "Color of the Today text",
+      "defaultValue": "#FFFFFF"
+    },
+    {
+      "name": "startColor",
+      "type": "color",
+      "displayName": "Progress Bar Start Color",
+      "description": "Start color of the progress bar gradient",
+      "defaultValue": "#a0c1e8"
+    },
+    {
+      "name": "endColor",
+      "type": "color",
+      "displayName": "Progress Bar End Color",
+      "description": "End color of the progress bar gradient",
+      "defaultValue": "#628ac5"
+    },
+    {
       "name": "today",
       "type": "number",
       "displayName": "Today",
